@@ -79,7 +79,7 @@ h2{
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 20px 140px;
+    padding: 20px 140px 60px 140px;
 }
 
 .text{
@@ -95,3 +95,65 @@ h2{
     border-radius: 16px;
 }
 
+/* Quote */
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 80px 60px 100px;
+}
+
+.quote blockquote{
+    font-size: 28px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 600px;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+
+.quote p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Action */
+.action{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    gap: 80px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    margin: 80px 100px;
+    color: white;
+    border-radius: 10px;
+}
+
+#call{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sign{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.action button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Footer */
