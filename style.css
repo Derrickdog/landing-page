@@ -6,7 +6,6 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 /* Header */
@@ -35,7 +34,37 @@ body{
     text-decoration: none;
 }
 
-
+/* Hero */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 60px 100px 100px 100px;
+}
+.hero h1{
+    margin: 0;
+    padding-right: 32px;
+}
+.hero p{
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 0;
+    padding: 8px 32px 8px 0px;
+}
+.hero img{
+    width: 350px;
+    height: 200px;
+}
+.hero button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
 
 /*
 p{
@@ -71,6 +100,4 @@ button{
     color: #1F2937;
     font-size: 18px;
 }
-
-
 */
