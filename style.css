@@ -43,20 +43,24 @@ body{
     color: #F9FAF8;
     padding: 60px 100px 100px 100px;
 }
+
 .hero h1{
     margin: 0;
     padding-right: 32px;
 }
+
 .hero p{
     font-size: 18px;
     opacity: 0.7;
     margin: 0;
     padding: 8px 32px 8px 0px;
 }
+
 .hero img{
     width: 350px;
     height: 200px;
 }
+
 .hero button{
     background-color: #3882F6;
     color: #E5E7EB;
@@ -66,38 +70,28 @@ body{
     padding: 8px 24px;
 }
 
-/*
-p{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-#woods{
-    float: right;
-    width: 360px;
-    height: 220px;
-}
-button{
-    background-color: #3882F6;
-    color: #E5E7EB;
-    border-radius: 8px;
-    padding: 8px 24px;
-    font-weight: bold;
-    border: none;
-}
-
-.plants{
-    width: 100px;
-    height: 100px;
-    border: 1px dodgerblue;
-}
-.container{
-    display: flex;
-    background-color: white;
-    justify-content: center;
+/* Content */
+h2{
     text-align: center;
 }
-.info{
-    color: #1F2937;
-    font-size: 18px;
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 140px;
 }
-*/
+
+.text{
+    font-size: 14px;
+    opacity: 0.6;
+    padding: 0px 16px;
+}
+
+.container img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
