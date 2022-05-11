@@ -42,7 +42,6 @@ button{
     width: 100px;
     height: 100px;
     border: 1px dodgerblue;
-    padding: 2px;
 }
 .container{
     display: flex;
