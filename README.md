@@ -1,3 +1,3 @@
 # landing-page
-Landing page practice webpage
+Landing page practice
 https://derrickdog.github.io/landing-page/
